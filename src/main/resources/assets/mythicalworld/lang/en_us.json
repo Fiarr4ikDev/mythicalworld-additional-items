@@ -1,3 +1,7 @@
 {
-    "item.mythicalworld.condensater_mk1_core": "Condensater mk1 core"
+    "item.mythicalworld.condenser_core": "Condenser core",
+
+    "item.mythicalworld.awakening_condenser_core": "Awakening condenser core",
+
+    "shift": "Hold \u00A7e[Shift]\u00A7r to more information"
 }

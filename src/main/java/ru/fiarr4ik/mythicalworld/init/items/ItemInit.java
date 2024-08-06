@@ -6,13 +6,21 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import ru.fiarr4ik.mythicalworld.Mythicalworld;
+import ru.fiarr4ik.mythicalworld.init.items.custom.AwakeningCondensingCore;
+import ru.fiarr4ik.mythicalworld.init.items.custom.CondenserCore;
 
     public class ItemInit {
 
         public static final DeferredRegister<Item> ITEMS =
                 DeferredRegister.create(ForgeRegistries.ITEMS, Mythicalworld.MOD_ID);
 
-        public static final RegistryObject<Item> CONDENSATER_MK1_CORE = ITEMS.register("condensater_mk1_core",
-                () -> new Item(new Item.Properties()
-                        .rarity(Rarity.EPIC)));
+        public static final RegistryObject<Item> CONDENSER_CORE = ITEMS.register("condenser_core",
+                () -> new CondenserCore(new Item.Properties()
+                        .rarity(Rarity.RARE)
+                ));
+
+        public static final RegistryObject<Item> AWAKENING_CONDENSER_CORE = ITEMS.register("awakening_condenser_core",
+                () -> new AwakeningCondensingCore(new Item.Properties()
+                        .rarity(Rarity.EPIC)
+                ));
     }

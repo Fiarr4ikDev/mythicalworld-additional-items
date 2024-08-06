@@ -1,3 +1,11 @@
 {
-    "item.mythicalworld.condensater_mk1_core": "Ядро конденсатора mk1"
+    "item.mythicalworld.condenser_core": "Ядро конденсатора",
+
+    "item.mythicalworld.awakening_condenser_core": "Пробуждённое ядро конденсатора",
+
+    "shift": "Удерживайте \u00A7e[Shift]\u00A7r для подробной информации",
+
+    "condenser_core": "Редкое ядро для крафта конденсатора энергии",
+
+    "awakening-condenser-core": "Очень редкое ядро для крафта конденсатора энергии mk2"
 }
